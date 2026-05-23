@@ -362,12 +362,33 @@ namespace Senparc.Weixin.Work.AdvancedAPIs
                     agentid = agentId,
                     news = new
                     {
-                        articles = articles.Select(z => new
+                        articles = articles.Select(z =>
                         {
-                            title = z.Title,
-                            description = z.Description,
-                            url = z.Url,
-                            picurl = z.PicUrl//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                            var workArticle = z as Senparc.Weixin.Work.Entities.WorkNewsArticle;
+                            if (workArticle != null)
+                            {
+                                return new
+                                {
+                                    title = z.Title,
+                                    description = z.Description,
+                                    url = z.Url,
+                                    picurl = z.PicUrl,//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                                    appid = workArticle.AppId,//小程序appid，必须是与当前应用关联的小程序
+                                    pagepath = workArticle.PagePath//点击消息卡片后的小程序页面
+                                };
+                            }
+                            else
+                            {
+                                return new
+                                {
+                                    title = z.Title,
+                                    description = z.Description,
+                                    url = z.Url,
+                                    picurl = z.PicUrl,//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                                    appid = (string)null,
+                                    pagepath = (string)null
+                                };
+                            }
                         }).ToList()
                     },
                     enable_duplicate_check = enableDuplicateCheck,
@@ -919,12 +940,33 @@ namespace Senparc.Weixin.Work.AdvancedAPIs
                     agentid = agentId,
                     news = new
                     {
-                        articles = articles.Select(z => new
+                        articles = articles.Select(z =>
                         {
-                            title = z.Title,
-                            description = z.Description,
-                            url = z.Url,
-                            picurl = z.PicUrl//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                            var workArticle = z as Senparc.Weixin.Work.Entities.WorkNewsArticle;
+                            if (workArticle != null)
+                            {
+                                return new
+                                {
+                                    title = z.Title,
+                                    description = z.Description,
+                                    url = z.Url,
+                                    picurl = z.PicUrl,//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                                    appid = workArticle.AppId,//小程序appid，必须是与当前应用关联的小程序
+                                    pagepath = workArticle.PagePath//点击消息卡片后的小程序页面
+                                };
+                            }
+                            else
+                            {
+                                return new
+                                {
+                                    title = z.Title,
+                                    description = z.Description,
+                                    url = z.Url,
+                                    picurl = z.PicUrl,//图文消息的图片链接，支持JPG、PNG格式，较好的效果为大图640*320，小图80*80
+                                    appid = (string)null,
+                                    pagepath = (string)null
+                                };
+                            }
                         }).ToList()
                     },
                     enable_duplicate_check = enableDuplicateCheck,
