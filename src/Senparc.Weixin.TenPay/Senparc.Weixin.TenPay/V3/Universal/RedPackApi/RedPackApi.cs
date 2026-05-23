@@ -55,6 +55,9 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
     修改标识：RongjieAAA - 20191122
     修改描述：增加小程序红包发送API
 
+    修改标识：Senparc - 20260523
+    修改描述：补充更新日志，完善文件头修改记录
+
 ----------------------------------------------------------------*/
 
 using System;

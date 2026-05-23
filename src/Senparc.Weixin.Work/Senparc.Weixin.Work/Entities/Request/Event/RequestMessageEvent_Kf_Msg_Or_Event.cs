@@ -7,6 +7,9 @@
     创建标识：Senparc - 20251203
 
     官方文档：https://developer.work.weixin.qq.com/document/path/94670
+    修改标识：Senparc - 20260523
+    修改描述：补充更新日志，完善文件头修改记录
+
 ----------------------------------------------------------------*/
 
 namespace Senparc.Weixin.Work.Entities

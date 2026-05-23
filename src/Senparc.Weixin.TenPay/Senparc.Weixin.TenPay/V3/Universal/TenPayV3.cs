@@ -94,6 +94,9 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
     修改标识：hesi815 - 20200318
     修改描述：v1.5.401 实现分账接口，添加方法：MultiProfitSharing()、ProfitSharingFinish()、ProfitSharingAddReceiver()、ProfitSharingRemoveReceiver()、ProfitSharingQuery()
 
+    修改标识：Senparc - 20260523
+    修改描述：补充更新日志，完善文件头修改记录
+
 ----------------------------------------------------------------*/
 
 /*

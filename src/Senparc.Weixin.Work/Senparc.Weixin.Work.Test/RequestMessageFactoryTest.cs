@@ -18,6 +18,19 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 ----------------------------------------------------------------*/
 #endregion Apache License Version 2.0
 
+/*----------------------------------------------------------------
+    Copyright (C) 2026 Senparc
+
+    文件名：RequestMessageFactoryTest.cs
+    文件功能描述：
+
+    创建标识：Senparc - 20141006
+
+    修改标识：Senparc - 20260523
+    修改描述：补充更新日志，完善文件头修改记录
+
+----------------------------------------------------------------*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,4 +1,17 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/*----------------------------------------------------------------
+    Copyright (C) 2026 Senparc
+
+    文件名：UrlLinkApiTests.cs
+    文件功能描述：
+
+    创建标识：Senparc - 20220106
+
+    修改标识：Senparc - 20260523
+    修改描述：补充更新日志，完善文件头修改记录
+
+----------------------------------------------------------------*/
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Senparc.CO2NET.Extensions;
 using Senparc.Weixin.WxOpen.Tests;
 using Senparc.Weixin.WxOpen.AdvancedAPIs.WxApp.UrlLinkJson;
