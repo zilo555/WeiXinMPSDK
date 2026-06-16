@@ -18,7 +18,7 @@ namespace Senparc.Weixin.WxOpen.Entities
     {
         public override Event Event
         {
-            get { return Event.xpay_goods_deliver_notify; }
+            get { return Event.xpay_coin_pay_notify; }
         }
 
         /// <summary>
