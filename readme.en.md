@@ -1,4 +1,5 @@
-<img src="https://sdk.weixin.senparc.com/images/senparc-logo-500.jpg" />
+![image](https://github.com/user-attachments/assets/3fc44e76-5c30-4b12-869e-af9eb1cf8d3f)
+<!-- <img src="https://sdk.weixin.senparc.com/images/senparc-logo-500.jpg" /> -->
 
 Senparc.Weixin —— WeChat .NET SDK 
 =================
@@ -6,7 +7,7 @@ Senparc.Weixin —— WeChat .NET SDK
 [![Build status](https://mysenparc.visualstudio.com/Senparc%20SDK/_apis/build/status/Weixin%20SDK/Senparc.Weixin%20Dev-%E5%86%85%E9%83%A8-%E8%87%AA%E5%8A%A8-.Net6)](https://mysenparc.visualstudio.com/Senparc%20SDK/_build/latest?definitionId=36)
 [![NuGet](https://img.shields.io/nuget/dt/Senparc.Weixin.svg)](https://www.nuget.org/packages/Senparc.Weixin)
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/JeffreySu/WeiXinMPSDK.svg)](https://github.com/JeffreySu/WeiXinMPSDK/commits/master)
-![Static Badge](https://img.shields.io/badge/.NET-8.0-blue)
+![Static Badge](https://img.shields.io/badge/.NET-10.0-blue)
 [![Senparc.Weixin.All](https://img.shields.io/nuget/vpre/Senparc.Weixin.All?label=Senparc.Weixin.All)](https://www.nuget.org/packages/Senparc.Weixin.All/)
 [![license](https://img.shields.io/github/license/JeffreySu/WeiXinMPSDK.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
@@ -25,6 +26,7 @@ Senparc.Weixin —— WeChat .NET SDK
 [![Senparc.Weixin.Cache.Redis](https://img.shields.io/nuget/vpre/Senparc.Weixin.Cache.Redis?label=Senparc.Weixin.Cache.Redis)](https://www.nuget.org/packages/Senparc.Weixin.Cache.Redis/)
 [![Senparc.Weixin.Cache.CsRedis](https://img.shields.io/nuget/vpre/Senparc.Weixin.Cache.CsRedis?label=Senparc.Weixin.Cache.CsRedis)](https://www.nuget.org/packages/Senparc.Weixin.Cache.CsRedis/)
 [![Senparc.Weixin.Cache.Memcached](https://img.shields.io/nuget/vpre/Senparc.Weixin.Cache.Memcached?label=Senparc.Weixin.Cache.Memcached)](https://www.nuget.org/packages/Senparc.Weixin.Cache.Memcached/)
+[![Senparc.Weixin.Cache.Dapr](https://img.shields.io/nuget/vpre/Senparc.Weixin.Cache.Dapr?label=Senparc.Weixin.Cache.Dapr)](https://www.nuget.org/packages/Senparc.Weixin.Cache.Dapr/)
 [![Senparc.WebSocket](https://img.shields.io/nuget/vpre/Senparc.WebSocket?label=Senparc.WebSocket)](https://www.nuget.org/packages/Senparc.WebSocket/)
 
 
@@ -32,58 +34,60 @@ Senparc.Weixin —— WeChat .NET SDK
 
 [[中文]](readme.md)
 
-With Senparc.Weixin, you can easily and quickly develop applications for the Wechat platform, including Wechat Official Accounts, Mini Programs, Mini Games, Enterprise Accounts, Open Platforms, Wechat Pay, JS-SDK, Wechat Hardware/Bluetooth, and more. The demo of this project is also suitable for beginners to learn .NET programming.  
+> 📈 **Senparc.Weixin SDK is currently the most widely used WeChat .NET SDK and one of the most popular .NET open-source projects in China. This project has been continuously maintained for over 12 years and has powered a large number of successful systems and applications. We will continue iterating, and are deeply integrating [AI](https://github.com/Senparc/Senparc.AI) scenarios with more samples coming online. Welcome to join our community 👐**
+
+With Senparc.Weixin, you can quickly build applications across the entire WeChat ecosystem, including Official Accounts, Mini Programs, Mini Games, Enterprise WeChat, Open Platform, WeChat Pay, JS-SDK, WeChat hardware/Bluetooth, and more. The samples in this repository are also suitable for .NET beginners.
   
-Currently, Senparc.Weixin supports almost all Wechat platform modules and interfaces, and supports multiple frameworks such as .NET 3.5 / 4.0 / 4.5 / .NET Standard 2.x / .NET Core 2.x / .NET Core 3.x / .NET 6.0 / .NET 7.0 / .NET 8.0. It is compatible with all environments including MVC, Razor, WebApi, Console (command line), desktop applications (.exe), Blazor, MAUI, and background services, and is completely decoupled from external frameworks.  
+Currently, Senparc.Weixin supports almost all WeChat modules and APIs, and supports multiple frameworks including [.NET 3.5 / 4.0 / 4.5 / .NET Standard 2.x / .NET Core 2.x / .NET Core 3.x / .NET 6.0 / .NET 7.0 / .NET 8.0 / .NET 10.0](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer). It is compatible with MVC, Razor, WebApi, Console, desktop apps (.exe), Blazor, MAUI, background services, and more, while remaining fully decoupled from external frameworks.  
   
-Senparc.Weixin SDK is currently the most widely used Wechat .NET SDK and one of the most popular .NET open source projects in China.  
-  
-Since its inception in 2013, we have been continuously updating the project and sharing the complete source code and design ideas without reservation, hoping that more people can benefit from it, understand and spread the spirit of open source, and help the open source cause in China! We are grateful to all the friends who have helped us along the way!  
+Since the project started in 2013, we have kept it continuously updated for over 12 years, and have shared complete source code and design ideas without reservation. We hope more developers can benefit from it, spread the open-source spirit, and help advance open source in China. Sincere thanks to everyone who has supported us along the way.  
   
 If you like this project and want us to continue improving it, please give us a ★Star :)  
   
 ## 🔔 Announcement  
 
-> 🔥 AI chatbot wechat integration Sample is online! [click here to view](/Samples%20with%20AI)<br>
-> 📺 <img src="https://github.com/JeffreySu/WeiXinMPSDK/assets/2281927/743f3019-c96b-4b61-acdb-d1834947d5d0" width="400" /><br />
-At the 2024 Microsoft MVP Global Summit, I had the privilege of interviewing Scott Hanselman and discussed a range of topics related to AI. We will continue our conversation on April 13, 2024, during the "Senparc 3.14 Technology Open Day" event, where we will delve deeper into the impact of AI and Agents on the future of the software industry and open-source software. Everyone is welcome to follow along! [Watch the video](https://github.com/JeffreySu/WeiXinMPSDK/wiki/%E5%BE%AE%E8%BD%AF-MVP-%E5%85%A8%E7%90%83%E5%B3%B0%E4%BC%9A%E9%87%87%E8%AE%BF-Scott-Hanselman)<br/>
-> ⚡ Sample now supports .NET 8.0 (backward compatible), [click here to view](/Samples/All/net8-mvc)!<br/>  
-> 🔒 [Wechat Pay V3 module (V1.0)](https://github.com/JeffreySu/WeiXinMPSDK/tree/master/src/Senparc.Weixin.TenPay/Senparc.Weixin.TenPayV3) is now online! [Nuget](https://www.nuget.org/packages/Senparc.Weixin.TenPayV3)<br>  
-> 🎠 Fully support automatic segmentation and sending of long text messages, more: [《Auto Reply Long Text Messages to Adapt to AIGC Applications》](https://www.cnblogs.com/szw/p/weixin-large-text-response.html)<br/>  
+> [!TIP]
+> 🥇 [Senparc Developer Community 2025-2026 Contributor Ranking](https://github.com/JeffreySu/WeiXinMPSDK/wiki/%E7%9B%9B%E6%B4%BE%E5%BC%80%E5%8F%91%E8%80%85%E7%A4%BE%E5%8C%BA-2025%E2%80%902026-%E5%B9%B4%E5%BA%A6%E8%B4%A1%E7%8C%AE%E8%80%85%E6%A6%9C%E5%8D%95)<br>
+> ⚡ .NET 10 stable is now released. Latest [Sample for .NET 10](./Samples/All/net10-mvc/) (backward compatible), online demo: https://sdk.weixin.senparc.com/<br>
+> 🔥 AI chatbot WeChat integration sample is now online! [View](/Samples%20with%20AI)<br>
+> 🎬 `Scott Hanselman interview on AI topics` [Watch video](https://www.bilibili.com/video/BV1NE421K78D/)<br/>
+> [!NOTE]
+> 🔒 [WeChat Pay V3 module (V1.0)](https://github.com/JeffreySu/WeiXinMPSDK/tree/master/src/Senparc.Weixin.TenPay/Senparc.Weixin.TenPayV3) is online! [NuGet](https://www.nuget.org/packages/Senparc.Weixin.TenPayV3)<br>
+> 🎠 Fully supports automatic long-text chunking and sending. More: [Auto-replying Extra-long Messages for GenAI Applications](https://www.cnblogs.com/szw/p/weixin-large-text-response.html)<br/>
   
 <!-- _1. In order to isolate the demo from the source code and make it easier for everyone to find the demo, the Senparc.Weixin.MP.Sample and other folders have been moved to the [/Samples/](/Samples/) folder._<br>  
 _2. The `Senparc.Weixin.Plugins` plan has been launched, details [click here](https://github.com/JeffreySu/WeiXinMPSDK/tree/master/Plugins)._ -->  
   
   
-## 🌟 Start: Separate documentation for each module + Sample code examples  
+## 🌟 Start: Module-by-Module Docs + Runnable Samples  
   
 Module | Link  
 ----|----  
 Official Account | https://sdk.weixin.senparc.com/Docs/MP/  
 Mini Program | https://sdk.weixin.senparc.com/Docs/WxOpen/  
-Enterprise Wechat | https://sdk.weixin.senparc.com/Docs/Work/  
-Wechat Pay V3 (recommended) | https://sdk.weixin.senparc.com/Docs/TenPayV3/  
-Wechat Pay V2 (not recommended) | https://sdk.weixin.senparc.com/Docs/TenPayV2/  
+Enterprise WeChat | https://sdk.weixin.senparc.com/Docs/Work/  
+WeChat Pay V3 (recommended) | https://sdk.weixin.senparc.com/Docs/TenPayV3/  
+WeChat Pay V2 (not recommended) | https://sdk.weixin.senparc.com/Docs/TenPayV2/  
   
-> Note:<br>  
-> 1. The above module examples include both documentation and runnable code templates (just need to configure Wechat parameters without modifying any code).  
-> 2. The configuration, registration, and interface calling methods in the examples are consistent. Once you learn how to develop one module, you can apply the same knowledge to other modules. The Hello World example below uses Official Account as an example, but it can be extended to other modules as well.  
-> 3. More complete development documentation is provided in the [/docs](/docs/) directory for advanced development, [click here to view](/docs/).  
+> [!NOTE]
+> 1. Each module page above includes both docs and immediately runnable code templates (you only need to fill WeChat settings, no code changes required).<br>
+> 2. Configuration, registration, and API invocation patterns are consistent across modules. Learn one module and you can quickly apply the same approach to others.<br>
+> 3. The [/docs](/docs/) directory provides more complete guidance for advanced development, [click here](/docs/). <br>
+> 4. Senparc.Weixin SDK modules are fully decoupled and independently published. To simplify dependencies, you can directly use [Senparc.Weixin.All](https://www.nuget.org/packages/Senparc.Weixin.All) to reference all modules automatically.
   
-## 🚀 Hello World: Start your Wechat development journey with 3 lines of code!  
+## 🚀 Hello World: Start Your WeChat Development Journey in 3 Lines  
   
-> Note:<br>  
-> 1. The following source code is located in the [`/Samples/MP/`](/Samples/MP/) folder, using Wechat Official Account as an example. Once you learn how to develop for Official Account, you can apply the same knowledge to other modules (Mini Program, Enterprise Wechat, Wechat Pay, etc.).  <br>
-> 2. To view other module or integration examples, you can check the independent samples in the [`/Samples/`](/Samples/) folder or the integration samples in the [`/Samples/All/`](/Samples/All/) folder (for advanced users).  <br>
-> 3. For different WeChat platforms, the Senparc.Weixin SDK has decoupled and independently released each module. To simplify referencing, you can directly reference [Senparc.Weixin.All](https://www.nuget.org/packages/Senparc.Weixin.All), which will automatically reference all modules.
+> [!NOTE]
+> 1. The sample source code below is in [`/Samples/MP/Senparc.Weixin.Sample.MP`](/Samples/MP/Senparc.Weixin.Sample.MP), using Official Account as an example. Once you know this flow, you can apply the same pattern to Mini Program, Enterprise WeChat, WeChat Pay, etc.<br>
+> 2. For other module or integrated demos, see standalone samples under [`/Samples/`](/Samples/) or integrated/advanced samples under [`/Samples/All/`](/Samples/All/).
   
   
-### Startup code (just 2 lines of code):  
+### Startup code (only 2 lines):
 1. <strong>Add configuration above `builder.Build()` in Program.cs:</strong>  
 ``` C#  
 builder.Services.AddSenparcWeixinServices(builder.Configuration);  
 ```  
-> Corresponds to ConfigureServices() method in Startup.cs.  
+> If you are using legacy `Startup.cs`, this line belongs in `ConfigureServices()`.
   
 2. <strong>Enable configuration below `builder.Build()` in Program.cs:</strong>  
 ``` C#  
@@ -94,25 +98,33 @@ var registerService = app.UseSenparcWeixin(app.Environment, null, null, register
     register.RegisterMpAccount(weixinSetting, "Senparc Network Assistant Official Account");  
 });  
 ```  
-> Corresponds to Configure() method in Startup.cs.  
+> - If you are using legacy `Startup.cs`, this block belongs in `Configure()`.
+> - If you want auto-registration for all configured accounts, append `autoRegisterAllPlatforms: true` (requires `Senparc.Weixin.All`):
+> ```C#
+> var registerService = app.UseSenparcWeixin(app.Environment, null, null, register => { },
+>     (register, weixinSetting) => { /* no manual registration needed */ },
+>     autoRegisterAllPlatforms: true /* auto-register all platforms */
+> );
+> ```
   
-### Call advanced interfaces (just 1 line of code):  
-You can call interfaces (using Customer Service interface as an example) at any position in the program:  
+### Call advanced APIs (only 1 line):
+You can call APIs anywhere in your program (customer service API as an example):
 ``` C#  
 await CustomApi.SendTextAsync("AppId", "OpenId", "Hello World!");  
 ```  
-> Tips:<br>  
-> 1. Senparc.Weixin SDK automatically manages the AccessToken throughout its life cycle, so during development, you only need to provide the AppId without worrying about AccessToken expiration, etc.  
+> [!TIP]
+> 1. Senparc.Weixin SDK automatically manages AccessToken through the full lifecycle. During development, you only need AppId and do not need to handle token expiration manually.<br>
 > 2. Registration information such as AppId can be automatically obtained from `Senparc.Weixin.Config.SenparcWeixinSetting`, and the relevant parameters are configured in `appsettings.json`.  
-> 3. The above method also supports synchronous calls: Senparc.Weixin.MP.AdvancedAPIs.CustomApi.SendText().  
-> 4. All interface namespaces are defined according to the official API path rules, and the parameter naming is kept as consistent as possible with the documentation (especially the return parameters), making it easier for developers to quickly locate and test, and reduce the likelihood of bugs.  
+> 3. A synchronous version is also available: `Senparc.Weixin.MP.AdvancedAPIs.CustomApi.SendText()`.<br>
+> 4. Namespace and parameter naming follow official API documentation conventions as closely as possible (especially return fields), making code lookup and testing faster while reducing bug risks.
+
+> [!TIP]
+> At this point, you can already apply the same pattern to all WeChat modules.
   
-With the above code, you can call interfaces for all Wechat modules! Continue reading for more skills.  
+### How to use Official Account messaging?
+Official Accounts provide a built-in chat window for text, image, voice, and other interactions.
   
-### How to use the messaging capability of Official Accounts?  
-Official Accounts provide a messaging window by default, which can send different types of messages and interact with programs using text, images, voice, etc.  
-  
-The following example also applies to the messaging of Enterprise Wechat and Mini Program Customer Service, just two steps!  
+The same pattern also applies to Enterprise WeChat and Mini Program customer service messaging. Only two steps:
   
 #### Step 1: Create a custom MessageHandler to control message processing logic:  
   
@@ -182,49 +194,68 @@ app.UseMessageHandlerForMp("/WeixinAsync",
     });  
 ```  
   
-At this point, you can use [https://YourDomain/WeixinAsync](https://sdk.weixin.senparc.com/WeixinAsync) to configure in the Wechat Official Account backend [Settings and Development]>[Basic Configuration]>Server Address (URL), and the corresponding Token is set in [appsettings.json](/Samples/MP/Senparc.Weixin.Sample.MP/appsettings.json#L36) (also applicable to Enterprise Wechat and Mini Program, please refer to the corresponding [Sample](/Samples/)).  
+At this point, you can use [https://YourDomain/WeixinAsync](https://sdk.weixin.senparc.com/WeixinAsync) to configure your WeChat Official Account backend in [Settings and Development] > [Basic Configuration] > [Server Address (URL)], and set the Token in [appsettings.json](/Samples/MP/Senparc.Weixin.Sample.MP/appsettings.json#L36) (also applies to Enterprise WeChat and Mini Program; see the corresponding [Samples](/Samples/)).  
   
 In addition, you can also use the `Controller (or WebApi)` method to have more precise control over the entire message processing process (or use it in .NET Framework), [click here to view](https://github.com/JeffreySu/WeiXinMPSDK/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8MessageHandler%E7%AE%80%E5%8C%96%E6%B6%88%E6%81%AF%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B).  
   
-Now you have mastered the basic skills required to develop for Wechat platforms. Keep reading for more resources:  
+Now you have mastered the basic skills required for WeChat platform development. Keep reading for more resources:  
   
 <img src="https://sdk.weixin.senparc.com/images/SenparcRobotsnapshoot.jpg" width="300" align="right">  
   
-## 📇 More Indexes  
-  
-* [🏹 Libraries for each module](#-libraries-for-each-module)  
-* [💾 Source code project folder description (under src folder)](#-source-code-project-folder-description-under-src-folder)  
-* [🖥️ Samples folder description (under Samples folder)](#%EF%B8%8F-samples-folder-description-under-samples-folder)  
-* [🎨 Resources](#-resources)  
-* [📖 Senparc Official Book Tutorial](#-senparc-official-book-tutorial)  
-* [🖥️ Senparc Official Video Tutorial](#-senparc-official-video-tutorial)  
-* [🧪 Follow the test account (SenparcRobot)](#-follow-the-test-account-senparcrobot-to-experience-the-features)  
-* [✋ Contribute to the code](#-contribute-to-the-code)  
-* [👩‍🏫 How to develop using .NET Core](#-how-to-develop-using-net-core)  
-* [↕️ Install via Nuget](#-install-via-nuget)  
-* [🏬 How to deploy](#-how-to-deploy)  
-* [🍴 Description of important branches](#-description-of-important-branches)  
-* [🍟 Thanks to contributors](#-thanks-to-contributors)  
-* [💰 Donate](#-donate)  
-* [⭐ Star Count](#-star-count)  
-* [📎 License](#-license)  
-  
-This repository contains the source code for multiple versions including .NET Framework/.NET Standard 2.0+/.NET Core 3.1/.NET 6/.NET 7/.NET 8:  
-  
-* Use Visual Studio 2022 to open the demo (supports all versions): .NET 8.0 - [Senparc.Weixin.Sample.Net7.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net8-mvc) (includes recommended source code references)  
-* Use Visual Studio 2019 or higher to open the .NET Framework demo: [Senparc.Weixin.MP.Sample.Net45.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net45-mvc/) (does not include source code, only references the libraries)  
-* Use Visual Studio 2019 or higher to open the command line Console demo (.NET Core): [Senparc.Weixin.MP.Sample.Consoles.vs2019.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/console)
+## 📇 More Indexes
 
-#### Legend  
-| ![.NET 4.6][net46Y] | ![.NET Standard 2.x][core20Y] | ![.NET 5.0 / 6.0 / 7.0 / 8.0][net8]    
-|--|--|--|  
-| .NET Framework 4.6.2+      |  .NET Standard 2.0 / 2.1  |   .NET 8.0, backward compatible with .NET 5.0-7.0  
-   
-> Tip:<br>  
-> 1. Starting from May 1, 2019, .NET Framework 3.5 and 4.0 will no longer receive updates. The last stable version of .NET Framework 3.5 + 4.0 can be found [here](https://github.com/JeffreySu/WeiXinMPSDK/releases/tag/v16.6.15).<br>  
-> 2. Starting from April 3, 2022, .NET Framework 4.5 has been upgraded to 4.6.2. The last stable version of .NET Framework 4.5 can be found [here](https://github.com/JeffreySu/WeiXinMPSDK/releases/tag/v16.17.9).<br>  
-> 3. If you are still using .NET Framework, it is recommended to upgrade your application to .NET Framework 4.8+ by January 12, 2027, as official support for .NET Framework 4.6.2 will end by then ([source](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)).<br>
-> 4. Use the 'Senparc.Weixin.All' integration library to automatically reference all libraries at once.
+* [🏹 Libraries by Module](#-libraries-by-module)
+* [💾 Explanation of Source Code Project Folders (under the src folder)](#-explanation-of-source-code-project-folders-under-the-src-folder)
+* [🖥️ Explanation of Samples Folder (under the Samples folder)](#%EF%B8%8F-explanation-of-samples-folder-under-the-samples-folder)
+* [🎨 Resources](#-resources)
+* [📖 Senparc Official Book Tutorial](#-senparc-official-book-tutorial)
+* [💻 Senparc Official Video Tutorial](#-senparc-official-video-tutorial)
+* [🧪 Follow the test account to experience the functions (SenparcRobot)](#-follow-the-test-account-to-experience-the-functions-senparcrobot)
+* [✋ Contribute Code](#-contribute-code)
+* [👩‍🏫 How to develop with .NET Core](#-how-to-develop-with-net-core)
+* [↕️ Install via NuGet](#%EF%B8%8F-install-via-nuget-to-the-project)
+* [🏬 Deployment](#-deployment-guide)
+* [🍴 Important Branches](#-important-branches)
+* [🍟 Thanks to Contributors](#-thanks-to-contributors)
+* [💰 Donate](#-donations)
+* [⭐ Star Quantity Statistics](#-star-quantity-statistics)
+* [📎 License](#-license)
+
+This repository includes source code for .NET Framework / .NET Standard 2.0+ / .NET Core 3.1 / .NET 6 / .NET 7 / .NET 8 / .NET 10 (same core logic):
+
+* Open demo with Visual Studio 2022 (all versions): .NET 10.0 - [Senparc.Weixin.Sample.Net10.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer-.NET10/Samples/All/net10-mvc) (recommended, with source references)
+* Open demo with Visual Studio 2022 (all versions): .NET 8.0 - [Senparc.Weixin.Sample.Net8.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net8-mvc) (with source references)
+* Open .NET Framework demo with Visual Studio 2019+ : [Senparc.Weixin.MP.Sample.Net45.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net45-mvc/) (package references only)
+* Open command-line Console demo with Visual Studio 2019+ (.NET Core): [Senparc.Weixin.MP.Sample.Consoles.vs2019.sln](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/console)
+
+## 🏹 Libraries by Module
+
+| # | Module | DLL | NuGet | Supported .NET |
+|---|---|---|---|---|
+| 1 | Core library | Senparc.Weixin.dll | [![Senparc.Weixin][1.1]][1.2]<br>[![Senparc.Weixin][nuget-img-base]][nuget-url-base] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 2 | Official Account /<br>JSSDK / Shake Around / etc. | Senparc.Weixin.MP.dll | [![MP][2.1]][2.2]<br>[![MP][nuget-img-mp]][nuget-url-mp] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 3 | [Mini Program<br>(incl. Mini Games)<br>(independent project)](https://github.com/JeffreySu/WxOpen) | Senparc.Weixin.WxOpen.dll | [![WxOpen][9.1]][9.2]<br>[![WxOpen][nuget-img-wxopen]][nuget-url-wxopen] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 4 | WeChat Pay | Senparc.Weixin.TenPay.dll | [![TenPay][12.1]][12.2]<br>[![TenPay][nuget-img-tenpay]][nuget-url-tenpay] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 5 | WeChat Pay V3 | Senparc.Weixin.TenPayV3.dll | [![TenPayV3][13.1]][13.2]<br>[![TenPay][nuget-img-tenpayv3]][nuget-url-tenpayv3] | ![.NET 4.5][net46N] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 6 | ASP.NET MVC extension | Senparc.Weixin.MP.MVC.dll | [![MP.MVC][3.1]][3.2]<br>[![Mvc][nuget-img-mvc]][nuget-url-mvc] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 7 | Enterprise Account<br>(officially discontinued) | Senparc.Weixin.QY.dll | [![QY][4.1]][4.2]<br>[![QY][nuget-img-qy]][nuget-url-qy] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 9 | Enterprise WeChat | Senparc.Weixin.Work.dll | [![Work][5.1]][5.2]<br>[![Work][nuget-img-work]][nuget-url-work] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 9 | WeChat Open Platform | Senparc.Weixin.Open.dll | [![Open][6.1]][6.2]<br>[![Open][nuget-img-open]][nuget-url-open] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 10 | Redis distributed cache | Senparc.Weixin.Cache.<br>Redis.dll | [![Cache.Redis][7.1]][7.2]<br>[![Redis][nuget-img-redis]][nuget-url-redis] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 11 | Memcached<br>distributed cache | Senparc.Weixin.Cache.<br>Memcached.dll | [![Cache.Memcached][8.1]][8.2]<br>[![MC][nuget-img-mc]][nuget-url-mc] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 12 | [WebSocket<br>(independent project)](https://github.com/JeffreySu/Senparc.WebSocket) | Senparc.WebSocket.dll | [![Senparc.WebSocket][10.1]][10.2]<br>[![WebSocket][nuget-img-ws]][nuget-url-ws] | ![.NET 4.5][net46Y] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+| 13 | All-in-One package | Senparc.Weixin.All.dll | [![Senparc.Weixin.All][14.1]][14.2]<br>[![Senparc.Weixin.All][nuget-img-base]][nuget-url-base] | ![.NET 4.5][net46N] ![.NET Standard 2.0/2.1][core20Y] ![.NET 10.0][net10] |
+
+#### Legend
+| ![.NET 4.6][net46Y] | ![.NET Standard 2.x][core20Y] | ![.NET 10.0][net10] |
+|--|--|--|
+| .NET Framework 4.6.2+ | .NET Standard 2.0 / 2.1 | .NET 10.0, backward compatible with .NET 5.0-9.0 |
+
+> [!WARNING]
+> 1. Since May 1, 2019, .NET Framework 3.5 and 4.0 are no longer updated. The last stable version for .NET Framework 3.5 + 4.0 is available [here](https://github.com/JeffreySu/WeiXinMPSDK/releases/tag/v16.6.15).<br>
+> 2. Since April 3, 2022, .NET Framework 4.5 has been upgraded to 4.6.2. The last stable version for .NET Framework 4.5 is available [here](https://github.com/JeffreySu/WeiXinMPSDK/releases/tag/v16.17.9).<br>
+> 3. If you still use .NET Framework, we recommend upgrading to .NET Framework 4.8+ by January 12, 2027. Official support for .NET Framework 4.6.2 ends then ([see details](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)).<br>
+> 4. Use `Senparc.Weixin.All` to reference all modules at once.
 
 [1.1]: https://img.shields.io/nuget/v/Senparc.Weixin.svg?style=flat
 [1.2]: https://www.nuget.org/packages/Senparc.Weixin
@@ -252,12 +283,15 @@ This repository contains the source code for multiple versions including .NET Fr
 [12.2]: https://www.nuget.org/packages/Senparc.Weixin.TenPay
 [13.1]: https://img.shields.io/nuget/v/Senparc.Weixin.TenPayV3.svg?style=flat
 [13.2]: https://www.nuget.org/packages/Senparc.Weixin.TenPayV3
+[14.1]: https://img.shields.io/nuget/v/Senparc.Weixin.All.svg?style=flat
+[14.2]: https://www.nuget.org/packages/Senparc.Weixin.All
 
 [net46Y]: https://img.shields.io/badge/.NET%20Framework%204.6+-Y-brightgreen.svg
 [net46N]: https://img.shields.io/badge/.NET%20Framework%204.6+-N-lightgrey.svg
 [net46N-]: https://img.shields.io/badge/.NET%20Framework%204.6+----lightgrey.svg
 [core20Y]: https://img.shields.io/badge/.NET%20Standard2.x-Y-brightgreen.svg
 [net8]: https://img.shields.io/badge/.NET%208.0-Y-brightgreen.svg
+[net10]: https://img.shields.io/badge/.NET%2010.0-Y-brightgreen.svg
 
 
 [nuget-img-base]: https://img.shields.io/nuget/dt/Senparc.Weixin.svg
@@ -339,7 +373,8 @@ From the following samples, you can learn about the configuration and usage of e
 |[All](/Samples/All/)         |   A mixed scenario demonstration that includes all functions of WeChat Official Accounts, Mini Programs, WeChat Pay, Enterprise Accounts, etc., recommended for projects that integrate multiple platforms or require deep development (advanced) |   
 | ┣ [All/console](/Samples/All/console)			|Command Line Console Demo (.NET Core)| NuGet Package  
 | ┣ [All/net45-mvc](/Samples/All/net45-mvc)						|Demo that can be directly published and used (.NET Framework 4.5 + ASP.NET MVC)|  NuGet Package  
-| ┗ [All/net8-mvc](/Samples/All/net8-mvc)			|Demo that can be directly published and used (.NET 8.0), compatible with .NET 5.0, 6.0, 7.0, and .NET Core | <strong>Source Code<strong>  
+| ┗ [All/net10-mvc](/Samples/All/net10-mvc)			|Demo ready for production use (.NET 10.0), compatible with .NET 5.0, 6.0, 7.0, 8.0, and .NET Core | <strong>Source Code (Latest)</strong>  
+| ┗ [All/net8-mvc](/Samples/All/net8-mvc)			|Demo ready for production use (.NET 8.0), compatible with .NET 5.0, 6.0, 7.0, and .NET Core | <strong>Source Code (Latest)</strong>  
   
 [Enter Samples Folder](/Samples/)  
   
@@ -360,7 +395,7 @@ Web version: [Click here](https://www.cnblogs.com/szw/p/WeChatSampleBuilder-V2.h
 ## 🎨 Resources  
   
 1. Official website: https://weixin.senparc.com/  
-2. Online demo (for .NET 8.0, backward compatible with .NET 6.0, 7.0, and .NET Core): https://sdk.weixin.senparc.com/  
+2. Online demo (for .NET 10.0, backward compatible with .NET 6.0, 7.0, 8.0, and .NET Core): https://sdk.weixin.senparc.com/  
 3. WeChat development tutorials: https://www.cnblogs.com/szw/p/weixin-course-index.html  
 4. WeChat technical community: https://weixin.senparc.com/QA  
 5. Custom menu online editor: https://sdk.weixin.senparc.com/Menu  
@@ -398,15 +433,15 @@ Donation: [Enter](http://sdk.weixin.senparc.com#donate)
   
 <img src="https://sdk.weixin.senparc.com/images/book-cover-front-small-3d.png" width="400" align="right">  
   
-> The Wechat development book, titled "In-Depth Analysis of Wechat Development: Efficient Development Secrets for Official Accounts and Mini Programs," completed by Jeffrey Su and the Senparc team after 2 years of effort, has been published. The book comes with an auxiliary reading system: [BookHelper](http://book.weixin.senparc.com).<br>  
+> The WeChat development book, titled "In-Depth Analysis of WeChat Development: Efficient Development Secrets for Official Accounts and Mini Programs," completed by Jeffrey Su and the Senparc team after 2 years of effort, has been published. The book comes with an auxiliary reading system: [BookHelper](http://book.weixin.senparc.com).<br>  
 > Welcome to purchase the genuine book: [【Buy Genuine】](https://book.weixin.senparc.com/book/link?code=github-homepage)<br>  
 > The code snapshot of the book's publication version is in the branch [BookVersion1](https://github.com/JeffreySu/WeiXinMPSDK/tree/BookVersion1).  
   
   
 ## 💻 Senparc Official Video Tutorial  
   
-> In order to help everyone understand Wechat development details more intuitively and learn Wechat development and various tricks in .NET development process, we have established the "Senparc Classroom" group and launched Wechat development video courses, which cover the following two parts:<br>  
-> 1. Wechat development basic skills<br>  
+> In order to help everyone understand WeChat development details more intuitively and learn practical techniques in .NET development, we established the "Senparc Classroom" group and launched WeChat development video courses, covering the following two parts:<br>  
+> 1. WeChat development fundamentals<br>  
 > 2. Case study of official accounts and mini programs<br>  
 >   
 > The total course duration is 60 lessons, with additional episodes.<br>  
@@ -417,7 +452,7 @@ Donation: [Enter](http://sdk.weixin.senparc.com#donate)
   
 |Senparc Network Assistant Official Account|Senparc Network Assistant Mini Program|BookHelper|  
 |--|--|--|  
-| <img src="https://sdk.weixin.senparc.com/Images/qrcode.jpg" width="258" /> | <img src="https://sdk.weixin.senparc.com/Images/SenparcRobot_MiniProgram.jpg" width="258" /> | <img src="https://sdk.weixin.senparc.com/Images/qrcode-bookhelper.jpg" width="258" /> |  
+| <img width="258" height="258" alt="image" src="https://github.com/user-attachments/assets/35aa4952-13fd-4cf1-b81f-43f053ff631c" /> | <img width="258" height="430" alt="image" src="https://github.com/user-attachments/assets/07b5f2b2-54ed-455d-9e17-0ae67ce56038" />  | <img width="258" height="716" alt="image" src="https://github.com/user-attachments/assets/7a1b8231-5cca-4742-bc12-4cb2a83c7b40" /> |  
   
   
 ## ✋ Contribute Code  
@@ -570,10 +605,10 @@ Starting from v0.4.0, MessageHandler adds support for user session context to so
   
 ## 👩‍🏫 How to develop with .NET Core  
   
-> The current branch includes the full version of .NET Framework 4.6.2+ and .NET 6.0/7.0/8.0 code (snapshot of versions that are no longer updated can be found in [release](https://github.com/JeffreySu/WeiXinMPSDK/releases)).<br>  
+> The current branch includes full code for .NET Framework 4.6.2+ and .NET 6.0/7.0/8.0/10.0 (for versions no longer updated, see [release](https://github.com/JeffreySu/WeiXinMPSDK/releases) snapshots).<br>  
 > The Demo for .NET Framework is located in the `/src/Samples/All/net45-mvc` directory, and<br>  
-> 【Recommended】The Demo for .NET 8.0 (compatible with .NET 5.0, 6.0, 7.0, and .NET Core 3.1 and lower versions) is located in the `/Samples/All/net8-mvc` directory.<br><br>  
-> Note: In the above Samples, the `net8-mvc` Sample directly references the source code of each module, and can generate a Senaprc.Weixin SDK library compatible with different versions after being compiled with `Release`.
+> [Recommended] The Demo for .NET 10.0 (compatible with .NET 5.0, 6.0, 7.0, 8.0, and .NET Core 3.1 and lower versions) is located in `/Samples/All/net10-mvc`.<br><br>  
+> Note: In the samples above, `net10-mvc` directly references each module's source code and can generate Senparc.Weixin SDK packages compatible with multiple versions when built in `Release`.
   
 ## ↕️ Install via Nuget to the project  
   
@@ -587,7 +622,7 @@ The Nuget installation methods for each module: [Installing the SDK into the pro
   
 ### 2) Deploy to any server via FTP  
   
-Install an FTP service (FileZilla Server is recommended) on the Web server, and directly upload the compiled code from the local machine (the corresponding code in the [Samples](https://github.com/JeffreySu/WeiXinMPSDK/tree/master/Samples) is [Senparc.Weixin.Sample.Net8](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net8-mvc). After compilation, you can use it directly without modifying the code. If you use Azure App Service or other cloud services, FTP is usually enabled as well.  
+Install an FTP service on the web server (recommended: [FileZilla Server](https://filezilla-project.org/download.php?type=server)), then upload your locally compiled code directly. The corresponding sample in [Samples](https://github.com/JeffreySu/WeiXinMPSDK/tree/master/Samples) is [Senparc.Weixin.Sample.Net10](https://github.com/JeffreySu/WeiXinMPSDK/tree/Developer/Samples/All/net10-mvc). It can be used directly after compilation without code changes. If you use Azure App Service or other cloud services, FTP is usually enabled as well.  
   
   
 <!--  
@@ -719,4 +754,7 @@ either express or implied. See the License for the specific language governing p
 and limitations under the License.
 ```
 Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
+
+> [!TIP]
+> 100% open source, commercial use supported.
 

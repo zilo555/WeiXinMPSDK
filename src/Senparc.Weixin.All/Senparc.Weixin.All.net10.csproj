@@ -3,7 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>2026.6.25</Version>
+    <Version>2026.6.25.1</Version>
     <LangVersion>10.0</LangVersion>
     <AssemblyName>Senparc.Weixin.All</AssemblyName>
     <RootNamespace>Senparc.Weixin.All</RootNamespace>
@@ -83,9 +83,11 @@
 		[2026-06-02] v2026.6.0 WxOpen feat: add: vpay signature 虚拟支付 ##3294 感谢 @mojinxun
 		[2026-06-08] v2026.6.8 Work v3.31.0 feat: 添加日历 API 接口；完善日程接口，新增添加日程参与者、按日历获取日程、取消日程等接口 / PR #3300 / Issue #3298 感谢 @Chenfan0821 @JaneConan
 		[2026-06-17] v2026.6.17 WxOpen fix: 修复小程序虚拟支付接口参数问题（PR #3304） 感谢 @mojinxun @lilinjian2001
-		[2026-06-25] v2026.6.25
-		1、Open v4.24.1 feat: 获取授权账号详情接口 AuthorizerInfo 添加 store_info、talent_info、supplier_info 字段（PR #3306）
-		2、WxOpen v3.27.0 feat: 添加 iOS 会员订阅支持（wx.requestAppleSubscribeSign 签名辅助、签约结果及退款推送事件处理）（PR #3307）
+		[2026-06-25] v2026.6.25.1
+		1、Open v4.24.1 feat: 获取授权账号详情接口 AuthorizerInfo 添加 store_info、talent_info、supplier_info 字段（PR #3306） 感谢 @Copilot
+		2、WxOpen v3.27.0 feat: 添加 iOS 会员订阅支持（wx.requestAppleSubscribeSign 签名辅助、签约结果及退款推送事件处理）（PR #3307） 感谢 @Copilot
+		3、WxOpen v3.27.1 fix: 修复 query_user_balance 接口 first_save_flag 字段类型错误 / Issue #3308 感谢 @zhangliang2008
+		4、MP v16.24.3 feat: 新增 GetForeverMediaWithContentType() 接口，支持获取永久素材响应 Content-Type
 	</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/JeffreySu/WeiXinMPSDK</RepositoryUrl>
   </PropertyGroup>
