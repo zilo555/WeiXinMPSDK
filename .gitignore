@@ -77,5 +77,5 @@ tools/WeixinBrowserPlugin/release/*
 /tools/WeixinBrowserPlugin/dist
 /tools/WeixinDev/weixindev-*.vsix
 /.cursor
-/Samples/All/net10-mvc/Senparc.Weixin.Sample.Net10/App_Data/ApiDocXml
-src/Senparc.Weixin.WxOpen/src/Senparc.Weixin.WxOpen.AppDemo/.cursor/*
+**/App_Data/ApiDocXml
+.cursor/*

@@ -3,7 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>2026.6.25.1</Version>
+    <Version>2026.6.26</Version>
     <LangVersion>10.0</LangVersion>
     <AssemblyName>Senparc.Weixin.All</AssemblyName>
     <RootNamespace>Senparc.Weixin.All</RootNamespace>
@@ -88,6 +88,7 @@
 		2、WxOpen v3.27.0 feat: 添加 iOS 会员订阅支持（wx.requestAppleSubscribeSign 签名辅助、签约结果及退款推送事件处理）（PR #3307） 感谢 @Copilot
 		3、WxOpen v3.27.1 fix: 修复 query_user_balance 接口 first_save_flag 字段类型错误 / Issue #3308 感谢 @zhangliang2008
 		4、MP v16.24.3 feat: 新增 GetForeverMediaWithContentType() 接口，支持获取永久素材响应 Content-Type
+		[2026-06-25] WxOpen v3.27.2 fix: 修复 微信小程序虚拟支付，IOS退款消息推送，属性错误！ / Issue #3310 / PR #3311 感谢 @lilinjian2001
 	</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/JeffreySu/WeiXinMPSDK</RepositoryUrl>
   </PropertyGroup>
