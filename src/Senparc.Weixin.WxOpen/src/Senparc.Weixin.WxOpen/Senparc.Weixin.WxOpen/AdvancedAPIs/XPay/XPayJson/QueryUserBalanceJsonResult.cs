@@ -1,4 +1,4 @@
-﻿#region Apache License Version 2.0
+#region Apache License Version 2.0
 /*----------------------------------------------------------------
 
 Copyright 2026 Jeffrey Su & Suzhou Senparc Network Technology Co.,Ltd.
@@ -20,14 +20,17 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 
 /*----------------------------------------------------------------
     Copyright (C) 2026 Senparc
- 
+
     文件名：QueryUserBalanceJsonResult.cs
     文件功能描述：查询用户代币余额 返回结果
-    
+
     创建标识：Senparc - 20231201
 
     修改标识：Senparc - 20241020
-    修改描述：v3.21.2 修正 first_save_flag 类型错误，应为 int; 同时增加 FirstSaveFlag 属性, 用于 bool 类型判断是否首次充值
+    修改描述：v3.21.2 修正 first_save_flag 类型错误，应为 bool; 同时增加 FirstSaveFlag 属性, 用于 bool 类型判断是否首次充值
+
+    修改标识：Senparc - 20260625
+    修改描述：根据微信官方文档，first_save_flag 调整为 bool 类型（Issue #3308）
 
 ----------------------------------------------------------------*/
 
@@ -37,7 +40,7 @@ using Senparc.Weixin.Entities;
 namespace Senparc.Weixin.WxOpen.AdvancedAPIs.XPay
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public class QueryUserBalanceJsonResult : WxJsonResult
     {
@@ -72,14 +75,14 @@ namespace Senparc.Weixin.WxOpen.AdvancedAPIs.XPay
         public int sum_cost { get; set; }
 
         /// <summary>
-        /// 代币总余额，包括有价和赠送部分
+        /// 是否首次充值
         /// </summary>
-        public int first_save_flag { get; set; }
+        public bool first_save_flag { get; set; }
 
         /// <summary>
-        /// 代币总余额，包括有价和赠送部分
+        /// 是否首次充值
         /// </summary>
-        public bool FirstSaveFlag => first_save_flag == 1;
+        public bool FirstSaveFlag => first_save_flag;
     }
 }
 
